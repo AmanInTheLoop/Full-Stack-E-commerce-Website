@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./../Common/Header";
+import { Outlet } from "react-router";
 
 const UserLayout = () => {
   return (
@@ -7,6 +8,9 @@ const UserLayout = () => {
       {/* Header  */}
       <Header />
       {/* Main Content  */}
+      <main>
+        <Outlet />
+      </main>
       {/* Footer  */}
     </>
   );
