@@ -22,7 +22,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="contiainer max-auto flex items-center justify-between py-4 px-6">
+      <nav className="contiainer max-auto flex items-center justify-between py-4 px-7">
         {/* Left - logo */}
         <div>
           <Link to="/" className="text-2xl font-medium">
@@ -62,7 +62,7 @@ const Navbar = () => {
             className="relative hover:text-black">
             <HiOutlineShoppingBag className="h-6 w-6 to-gray-700" />
             <span className="absolute -top-1 bg-rabbit-red text-white text-xs rounded-full px-2 py-0.5">
-              4
+              3
             </span>
           </button>
           {/* Search  */}

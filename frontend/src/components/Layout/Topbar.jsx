@@ -5,23 +5,28 @@ import { RiTwitterXLine } from "react-icons/ri";
 const Topbar = () => {
   return (
     <div className="bg-rabbit-red text-white">
-      <div className="container mx-auto flex justify-between items-center py-3">
+      <div className="container mx-auto flex justify-between items-center py-3 px-8">
+        {/* Social Icons - Left (Hidden on small screens) */}
         <div className="hidden md:flex items-center space-x-4">
-          <a href="#" className="hover:text-gray-300">
+          <a href="#" className="hover:text-gray-300 transition-colors">
             <TbBrandMeta className="h-5 w-5" />
           </a>
-          <a href="#" className="hover:text-gray-300">
+          <a href="#" className="hover:text-gray-300 transition-colors">
             <IoLogoInstagram className="h-5 w-5" />
           </a>
-          <a href="#" className="hover:text-gray-300">
+          <a href="#" className="hover:text-gray-300 transition-colors">
             <RiTwitterXLine className="h-4 w-4" />
           </a>
         </div>
-        <div className="text-sm text-center mx-auto">
+
+        {/* Shipping Text - Center */}
+        <div className="text-sm text-center mx-auto md:mx-4">
           <span>We ship worldwide - Fast and reliable shipping!</span>
         </div>
-        <div className="text-sm hidden md:block">
-          <a href="tel:+1234567890" className="hover: text-gray-300">
+
+        {/* Contact Number - Right (Hidden on small screens) */}
+        <div className="hidden md:block text-sm">
+          <a href="tel:+1234567890" className="hover:text-gray-300 transition-colors">
             +1 (234) 567-890
           </a>
         </div>
