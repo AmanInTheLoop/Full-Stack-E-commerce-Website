@@ -17,7 +17,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=1",
+          url: "https://picsum.photos/500/300?random=1",
           altText: "Stylish Jacket",
         },
       ],
@@ -28,7 +28,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=2",
+          url: "https://picsum.photos/500/300?random=2",
           altText: "Stylish Jacket",
         },
       ],
@@ -39,7 +39,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=3",
+          url: "https://picsum.photos/500/300?random=3",
           altText: "Stylish Jacket",
         },
       ],
@@ -50,7 +50,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=4",
+          url: "https://picsum.photos/500/300?random=4",
           altText: "Stylish Jacket",
         },
       ],
@@ -61,7 +61,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=5",
+          url: "https://picsum.photos/500/300?random=5",
           altText: "Stylish Jacket",
         },
       ],
@@ -72,7 +72,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=6",
+          url: "https://picsum.photos/500/300?random=6",
           altText: "Stylish Jacket",
         },
       ],
@@ -83,7 +83,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=7",
+          url: "https://picsum.photos/500/300?random=7",
           altText: "Stylish Jacket",
         },
       ],
@@ -94,7 +94,7 @@ const Newarrivals = () => {
       price: 120,
       images: [
         {
-          url: "https://picsum.photos/500/500?random=8",
+          url: "https://picsum.photos/500/300?random=8",
           altText: "Stylish Jacket",
         },
       ],
