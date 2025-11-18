@@ -8,6 +8,7 @@ import {
 import { Link } from "react-router";
 import SearchBar from "./SearchBar";
 import CartDrawer from "./../Layout/CartDrawer";
+import Login from "./../../pages/Login";
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
